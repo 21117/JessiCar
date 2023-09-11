@@ -28,8 +28,8 @@ dli@dli-desktop:~/USB-Camera$ python3 CSI-Camera.git //카메라를 작동시킨
 DLI docker이미지를 설치하고, 개발 환경은 젯슨에 모니터를 연결하지 않는 Headless 모드로 동작 시킨다. 
 GUI에서 Headless 모드로 바꾸려면 윈도우 power shell에 들어가 도커를 연결해준다.
 
-PS C:\> ssh dli@192.168.55.1 //젯슨 나노의 주소는 192.168.55.1로 정해져있다.
+```PS C:\> ssh dli@192.168.55.1 //젯슨 나노의 주소는 192.168.55.1로 정해져있다.
 
-```dli@dli-desktop:~$ ./docker_dli_run.sh
+dli@dli-desktop:~$ ./docker_dli_run.sh```
 
  

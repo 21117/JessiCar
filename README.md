@@ -9,7 +9,7 @@ nvidia 계정 생성 후 젯슨나노에 Os를 깔아준다. Os는 Micro SD 카�
 
 우분투에 reboot를 마치면 초록색 화면이 뜨고 터미널을 연다.
 
-```C++
+```
 sudo apt-get upgrade //업그레이드를 해주고
 sudo apt install python3-pip //파이썬을 설치한다.
 sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'

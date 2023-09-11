@@ -13,6 +13,7 @@ nvidia 계정 생성 후 젯슨나노에 Os를 깔아준다. Os는 Micro SD 카�
 sudo apt-get upgrade //업그레이드를 해주고
 sudo apt install python3-pip //파이썬을 설치한다.
 sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
+```
 
 jtop 명령어로 쿨링펜의 온도를 확인하고 온도를 낮춰준다.
 카메라 조립 후 젯슨나노에 연결한다.

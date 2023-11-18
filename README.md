@@ -1,6 +1,22 @@
 # jetsonnano
 rf. https://developer.nvidia.com/embedded/learn/getting-started-jetson
 
+## Hardware
+
+Nvidia Jetson 2G or 4G
+
+RCCar: please visit chapter 1
+
+## Software on Jetson
+
+- Jetpack4.5.x or Jetpack4.6.x(Ubuntu 18.04) → OpenCV downgrade to 3.4.6 for darknet_ros
+- ROS Melodic
+
+## Software on PC
+
+- Ubuntu 18.04, Opencv is 3.2.x or 3.4.6
+- ROS Melodic
+
 nvidia 계정 생성 후 젯슨나노에 Os를 깔아준다. Os는 Micro SD 카드를 컴퓨터에 포멧시키고 etcher( https://www.balena.io/etcher/)를 이용해 이미지를 구워즐 수 있다. Jetson Nano Developer Kit SD Card Image를 NVIDIA에서 제공한다.(Jetpack461)
 이미지를 구우면  Micro SD 카드를 젯슨나노에 옮기고 컴퓨터 모니터와 HDMI선 및 키보드, 마우스 선을 연결한다.
 조립된 젯슨나노를 싱글보드 컴퓨터로 만들어 줄 수 있다.

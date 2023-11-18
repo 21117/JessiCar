@@ -1,4 +1,4 @@
-# jetsonnano
+# JessiCar
 rf. https://developer.nvidia.com/embedded/learn/getting-started-jetson
 
 ## Hardware
